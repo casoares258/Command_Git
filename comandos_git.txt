@@ -6,7 +6,7 @@ Comando para ver a chave de encriptação do arquivo.
 Comando que mostra o caminho completo que você esta
 - pwd
 
-Comando para iniciar o repositorio do Git
+Comando usado para criar um repositorio no Git
 - git init
 
 Comando para enviar o arquivo para o Github
@@ -37,3 +37,17 @@ as chaves
 Comandos para altendicar o Git no Github
 - git config --global user.email "informar o email da conta que irá utilizar"
 - git config --global user.name (informar o nick, sem as aspas)
+
+Comandos para comitar
+- git add * (mostra ao git a existencia do arquivo)
+- git commit -m "uma msg de texto para registro"
+- 
+
+
+TERMINOLOGIAS DE ESTAGIOS DO GIT (ciclo de vida):
+- Unmodified = arquivos que não foi modificado
+- Modified = arquivos unmodified que sofreu alteração
+- Staged = onde ficam os arquivos que estão sendo preparados para outro tipo de agrupamento 
+
+- Untracked = quando o git ainda não tem ciencia do arquivo
+- tracked = são os arquivos que o git tem ciencia dele 
