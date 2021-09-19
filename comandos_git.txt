@@ -34,14 +34,20 @@ Git e o Github
 Ao fazer isso, o bash irá pedir a senha que você usou para criar 
 as chaves
 
+
 Comandos para altendicar o Git no Github
 - git config --global user.email "informar o email da conta que irá utilizar"
 - git config --global user.name (informar o nick, sem as aspas)
+- git config --global --unset user.email (comando para retirar email do Git)
+- git config --global --unset user.name (comando para retirar o user name no Git)
+
 
 Comandos para comitar
 - git add * (mostra ao git a existencia do arquivo)
 - git commit -m "uma msg de texto para registro"
-- 
+- git remote add origin (colocar a URL disponivel no repositoro do Github)
+- git remote -v (lista as listas de repositorio cadastrados)
+- git push origin (O oringe é o "apelido dado ao link no github") master
 
 
 TERMINOLOGIAS DE ESTAGIOS DO GIT (ciclo de vida):
